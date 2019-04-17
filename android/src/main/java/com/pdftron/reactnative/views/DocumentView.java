@@ -125,6 +125,8 @@ public class DocumentView extends com.pdftron.pdf.controls.DocumentView {
                 .multiTabEnabled(false)
                 .showCloseTabOption(false)
                 .useSupportActionBar(false)
+                .showSaveCopyOption(false)
+                .showShareOption(false)
                 .toolManagerBuilder(toolManagerBuilder)
                 .build();
             setViewerConfig(config);
