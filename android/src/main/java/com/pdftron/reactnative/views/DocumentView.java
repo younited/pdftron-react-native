@@ -127,6 +127,8 @@ public class DocumentView extends com.pdftron.pdf.controls.DocumentView {
                 .multiTabEnabled(false)
                 .showCloseTabOption(false)
                 .useSupportActionBar(false)
+                .showSaveCopyOption(false)
+                .showShareOption(false)
                 .toolManagerBuilder(toolManagerBuilder);
             if (mCacheDir != null) {
                 builder = builder.openUrlCachePath(mCacheDir);
