@@ -69,7 +69,9 @@ public class DocumentView extends com.pdftron.pdf.controls.DocumentView {
                 .fullscreenModeEnabled(false)
                 .multiTabEnabled(false)
                 .showCloseTabOption(false)
-                .useSupportActionBar(false);
+                .useSupportActionBar(false)
+                .showSaveCopyOption(false)
+                .showShareOption(false);
     }
 
     public void setDocument(String path) {
